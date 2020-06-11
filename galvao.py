@@ -23,7 +23,7 @@ def handle(msg):
             tino_bot.sendMessage(chat_id, MSG_TINO)
 
 
-MSG_GALVAO = 'Fala, Tino!'
+MSG_GALVAO = 'Diga lá, Tino!'
 MSG_TINO = 'Sentiu!'
 GALVAO_TOKEN = config('GALVAO_TOKEN')
 TINO_TOKEN = config('TINO_TOKEN')
